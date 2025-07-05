@@ -27,7 +27,7 @@ def add():
 
 def commit():
     """function for committing"""
-    command = 'git commit -m "update"'
+    command = 'git commit -m "cpsc-304"'
     run_command(command)
 
 
