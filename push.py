@@ -20,19 +20,19 @@ def run_command(command):
 
 
 def add():
-    """function for pulling"""
+    """function for adding"""
     command = "git add ."
     run_command(command)
 
 
 def commit():
-    """function for pulling"""
+    """function for committing"""
     command = 'git commit -m "update"'
     run_command(command)
 
 
 def push():
-    """function for pulling"""
+    """function for pushing"""
     command = "git push"
     run_command(command)
 
